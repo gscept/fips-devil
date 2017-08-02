@@ -2,6 +2,13 @@
 # fips-devil
 #
 ---
+imports:
+     fips-libjpeg:
+        git: https://github.com/gscept/fips-libjpeg.git
+     fips-libpng:
+        git: https://github.com/gscept/fips-libpng.git
+     fips-lua:
+        git: https://github.com/gscept/fips-lua.git
 exports:
     header-dirs: 
     - DevIL/DevIL/include
