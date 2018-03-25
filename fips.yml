@@ -12,6 +12,9 @@ imports:
 exports:
     header-dirs: 
     - DevIL/DevIL/include
+    - DevIL/DevIL/src-IL/include
+    - DevIL/DevIL/src-ILU/include
+    - DevIL/DevIL/src-ILUT/include
     modules :
         DevIL: .
 
