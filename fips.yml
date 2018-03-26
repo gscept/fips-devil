@@ -15,6 +15,9 @@ exports:
         - DevIL/DevIL/src-IL/include
         - DevIL/DevIL/src-ILU/include
         - DevIL/DevIL/src-ILUT/include
+    defines : 
+        IL_STATIC_LIB : 1
+        JPEGSTATIC : 1
     modules :
         DevIL: .
 
