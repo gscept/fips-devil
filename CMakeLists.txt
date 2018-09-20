@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 2.8)
 get_filename_component(FIPS_ROOT_DIR "../fips" ABSOLUTE)
 include("${FIPS_ROOT_DIR}/cmake/fips.cmake")
 
-SET(-DIL_NO_EXR)
+ADD_DEFINITIONS(-DIL_NO_EXR)
 
 fips_setup()
 fips_project(fips-devil)
